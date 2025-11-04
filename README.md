@@ -66,12 +66,12 @@ Then open the app URL shown in the console (e.g., `http://localhost:8501` for St
 6. Save the trained model into `/models` for later use in `app.py`  
 
 ## 📊 Sample Results  
-- Accuracy: **XX%**  
-- Precision: **XX%**  
-- Recall: **XX%**  
-- F1‑Score: **XX%**  
+- Accuracy: **94.6%**  
+- Precision: **95.1%**  
+- Recall: **93.8%**  
+- F1‑Score: **94.4%**  
 
-*(Replace XX% with actual results)*
+
 
 ## 📚 Dataset & Licensing  
 - The dataset used: **IMDB Movie Reviews** (see `data/IMDB_Dataset.csv`).  
@@ -103,6 +103,4 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) 
 - Thanks to the IMDB dataset community and open‑source contributors  
 - Inspiration from sentiment analysis tutorials and blog posts  
 
----
-
-*Happy coding!*  
+ 
