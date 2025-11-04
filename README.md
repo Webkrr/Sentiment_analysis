@@ -1,11 +1,11 @@
 # Sentiment_analysis  
 **Sentiment Analysis for Movie Reviews**  
 
-## 🧠 Project Overview  
+## Project Overview  
 A Python‑based sentiment analysis project that processes movie review data, trains a model, and serves predictions via a simple app interface.  
 This repository contains notebooks, model artifacts, source code, and an application to demonstrate how to classify reviews as positive or negative.
 
-## 📁 Repository Structure  
+## Repository Structure  
 ```
 ├── app.py                           # Main application script (e.g., Streamlit / Flask)
 ├── requirements.txt                 # Python dependencies  
@@ -22,14 +22,14 @@ This repository contains notebooks, model artifacts, source code, and an applica
     └── processed/cleaned_reviews.csv # Cleaned/processed dataset  
 ```
 
-## 🧩 Key Features  
+## Key Features  
 - Data cleaning and preprocessing of movie review dataset.  
 - Training of sentiment classification model (e.g., using logistic regression, neural network).  
 - Exporting the trained model for inference.  
 - A simple web app (*app.py*) to input a review and get a live sentiment prediction.  
 - Use of Git LFS (Large File Storage) for handling large CSV files.
 
-## 🚀 Getting Started  
+## Getting Started  
 ### Prerequisites  
 - Python 3.8+  
 - Git installed with Git LFS support  
@@ -57,7 +57,7 @@ python app.py
 ```
 Then open the app URL shown in the console (e.g., `http://localhost:8501` for Streamlit) and enter a movie review to see the sentiment result.
 
-## 🧪 Model Training Workflow  
+## Model Training Workflow  
 1. Load raw data (`data/IMDB_Dataset.csv`)  
 2. Clean and preprocess text (remove stop‑words, lemmatize, vectorize)  
 3. Split into training/test sets  
@@ -65,7 +65,7 @@ Then open the app URL shown in the console (e.g., `http://localhost:8501` for St
 5. Evaluate performance (accuracy, precision, recall, F1‑score)  
 6. Save the trained model into `/models` for later use in `app.py`  
 
-## 📊 Sample Results  
+## Sample Results  
 - Accuracy: **94.6%**  
 - Precision: **95.1%**  
 - Recall: **93.8%**  
@@ -73,14 +73,14 @@ Then open the app URL shown in the console (e.g., `http://localhost:8501` for St
 
 
 
-## 📚 Dataset & Licensing  
+## Dataset & Licensing  
 - The dataset used: **IMDB Movie Reviews** (see `data/IMDB_Dataset.csv`).  
 - Processed data in `data/processed/cleaned_reviews.csv` (if you’ve generated it).  
 - **WARNING:** Files larger than 100 MB cannot be pushed to GitHub directly. Use Git LFS or host the dataset externally.  
   [_GitHub docs on large files_](https://gh.io/lfs)  
 - Please **do not upload proprietary or copyrighted data** without permission.
 
-## 📝 Contribution Guidelines  
+## Contribution Guidelines  
 1. Fork the repository  
 2. Create a new branch (`git checkout -b feature‑xyz`)  
 3. Make your changes & commit (`git commit -m "Add feature xyz"`)  
@@ -89,7 +89,7 @@ Then open the app URL shown in the console (e.g., `http://localhost:8501` for St
 
 Please ensure your code adheres to clean coding standards and that you update tests or notebooks as needed.
 
-## 🎯 Future Enhancements  
+## Future Enhancements  
 - Add support for more languages or domains beyond movie reviews  
 - Deploy as a web service / API using Flask/FastAPI and host on a cloud platform  
 - Integrate model explainability (e.g., SHAP) for sentiment predictions  
@@ -99,8 +99,6 @@ Please ensure your code adheres to clean coding standards and that you update te
 ## 📄 License  
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgements  
-- Thanks to the IMDB dataset community and open‑source contributors  
-- Inspiration from sentiment analysis tutorials and blog posts  
+
 
  
